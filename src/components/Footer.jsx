@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/udhya-kumar-k-b7999128a/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               <a href="https://github.com/UdhyaKumarKMIT" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
               <a href="https://www.instagram.com/udhya_2004/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+              <a href="https://x.com/UdhyaKumarK2004" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
             </div>
           
 
