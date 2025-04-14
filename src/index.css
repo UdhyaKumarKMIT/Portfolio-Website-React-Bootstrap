@@ -1,0 +1,144 @@
+:root {
+  /* Light Theme Variables */
+  --light-bg-primary: #f8f9fa;
+  --light-bg-secondary: #ffffff;
+  --light-text-primary: #212529;
+  --light-text-secondary: #6c757d;
+  --light-accent: #0d6efd;
+  --light-accent-hover: #0b5ed7;
+  --light-border: #dee2e6;
+  --light-card-bg: #ffffff;
+  --light-input-bg: #f1f3f5;
+  --light-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Dark Theme Variables */
+  --dark-bg-primary: #121212;
+  --dark-bg-secondary: #1e1e1e;
+  --dark-text-primary: #f8f9fa;
+  --dark-text-secondary: #adb5bd;
+  --dark-accent: #3a86ff;
+  --dark-accent-hover: #4a94ff;
+  --dark-border: #333333;
+  --dark-card-bg: #2a2a2a;
+  --dark-input-bg: #333333;
+  --dark-shadow: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Accounts for fixed navbar */
+}
+
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+body.light-theme {
+  background-color: var(--light-bg-primary);
+  color: var(--light-text-primary);
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+}
+
+section {
+  padding: 80px 0;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70px;
+  height: 4px;
+  transition: background-color 0.3s ease;
+}
+
+body.light-theme .section-title::after {
+  background-color: var(--light-accent);
+}
+
+body.dark-theme .section-title::after {
+  background-color: var(--dark-accent);
+}
+
+.section-subtitle {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+body.light-theme a {
+  color: var(--light-accent);
+}
+
+body.dark-theme a {
+  color: var(--dark-accent);
+}
+
+body.light-theme a:hover {
+  color: var(--light-accent-hover);
+}
+
+body.dark-theme a:hover {
+  color: var(--dark-accent-hover);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .section-subtitle {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+}

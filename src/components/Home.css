@@ -1,0 +1,188 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+body.light-theme .home-section {
+  background-color: var(--light-bg-primary);
+}
+
+body.dark-theme .home-section {
+  background-color: var(--dark-bg-primary);
+}
+
+.home-content {
+  animation: fadeIn 1s ease-out;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heading-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.main-name {
+  background: linear-gradient(90deg, #4a94ff, #6c5ce7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.wave {
+  animation: wave 1.5s infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.typing-container {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  min-height: 2.5rem;
+}
+
+body.light-theme .typing-container {
+  color: var(--light-text-secondary);
+}
+
+body.dark-theme .typing-container {
+  color: var(--dark-text-secondary);
+}
+
+.btncontainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.home-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .home-button {
+  background-color: var(--light-accent);
+  border-color: var(--light-accent);
+}
+
+body.dark-theme .home-button {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-accent);
+}
+
+body.light-theme .home-button:hover {
+  background-color: var(--light-accent-hover);
+  border-color: var(--light-accent-hover);
+}
+
+body.dark-theme .home-button:hover {
+  background-color: var(--dark-accent-hover);
+  border-color: var(--dark-accent-hover);
+}
+
+.home-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img {
+  animation: float 4s ease-in-out infinite;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .home-section {
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .home-content {
+    margin-bottom: 3rem;
+  }
+
+  .btncontainer {
+    justify-content: center;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .heading-name {
+    font-size: 2.5rem;
+  }
+
+  .typing-container {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .heading-name {
+    font-size: 2rem;
+  }
+
+  .typing-container {
+    font-size: 1.1rem;
+  }
+
+  .home-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

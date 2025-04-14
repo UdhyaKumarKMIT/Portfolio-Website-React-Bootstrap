@@ -1,0 +1,131 @@
+.portfolio-wrapper {
+  overflow-x: hidden;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+body.light-theme .portfolio-wrapper {
+  background-color: var(--light-bg-primary);
+}
+
+body.dark-theme .portfolio-wrapper {
+  background-color: var(--dark-bg-primary);
+}
+
+/* Common Button Styles */
+.btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .btn-primary {
+  background-color: var(--light-accent);
+  border-color: var(--light-accent);
+  color: white;
+}
+
+body.light-theme .btn-primary:hover {
+  background-color: var(--light-accent-hover);
+  border-color: var(--light-accent-hover);
+  transform: translateY(-2px);
+}
+
+body.dark-theme .btn-primary {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-accent);
+  color: white;
+}
+
+body.dark-theme .btn-primary:hover {
+  background-color: var(--dark-accent-hover);
+  border-color: var(--dark-accent-hover);
+  transform: translateY(-2px);
+}
+
+/* Common Card Styles */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .card {
+  background-color: var(--light-card-bg);
+  border: 1px solid var(--light-border);
+}
+
+body.dark-theme .card {
+  background-color: var(--dark-card-bg);
+  border: 1px solid var(--dark-border);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Decorative Elements */
+.decoration-item {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+body.light-theme .decoration-item {
+  background: linear-gradient(135deg, var(--light-accent), #6c5ce7);
+}
+
+body.dark-theme .decoration-item {
+  background: linear-gradient(135deg, var(--dark-accent), #6c5ce7);
+}
+
+/* Responsive Containers */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 40px 0;
+  }
+}
