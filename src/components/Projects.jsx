@@ -14,32 +14,35 @@ function Projects() {
       github: "https://github.com/UdhyaKumarKMIT/AI-Image-Prompt-Generator-Model",
       demo: "https://github.com/UdhyaKumarKMIT/AI-Image-Prompt-Generator-Model",
     },
-    {
-      id: 2,
-      title: "AI Image Generator",
-      description: "Web application that uses machine learning to generate unique images based on text descriptions.",
-      image: "./assets/projects/project2.jpg",
-      techStack: ["Python", "TensorFlow", "React", "Flask"],
-      github: "https://github.com/yourusername/ai-image-generator",
-      demo: "https://ai-image-demo.com",
-    },
-    {
+    
+      {
+        id: 2,
+        title: "Gemini Clone with Local Storage",
+        description: "A clone of Gemini AI using the Gemini API key, featuring local storage support via MongoDB for offline reading. Built with React for a smooth conversational experience.",
+        image: "gemini.png",
+        techStack: ["React", "Gemini AI", "Web Development", "MongoDB"],
+        github: "https://github.com/UdhyaKumarKMIT/Gemini-Ai",
+        demo: "https://ai-image-demo.com"
+      }
+     , 
+     {
       id: 3,
-      title: "Task Management System",
-      description: "Collaborative task management tool with real-time updates, task assignment, and progress tracking.",
+      title: "Health Connect",
+      description: "Admin Dashboard for MIT Health Care Centre, Anna University. A responsive web application to manage students, staff, doctors, and medicine records efficiently.",
       image: "./assets/projects/project3.jpg",
-      techStack: ["React", "Firebase", "Material UI", "Redux"],
-      github: "https://github.com/yourusername/task-management",
-      demo: "https://task-management-demo.com",
+      techStack: ["HTML", "Bootstrap 5", "JavaScript", "PHP", "MySQL"],
+      github: "https://github.com/UdhyaKumarKMIT/Admin-Panel-Healthcare-Centre",
+      demo: "https://task-management-demo.com"
     },
+    
     {
       id: 4,
-      title: "Weather Forecast App",
+      title: "BookMyBite Restuarant Dining Booking App",
       description:
-        "Mobile-responsive weather application that provides real-time forecasts and historical weather data.",
-      image: "./assets/projects/project4.jpg",
-      techStack: ["JavaScript", "OpenWeather API", "HTML5", "CSS3"],
-      github: "https://github.com/yourusername/weather-app",
+        "A restaurant dining booking application that allows users to view Popular Dishes, view menus, and make reservations.",
+      image: "restaurant.png",
+      techStack: ["React", "React-Bootstrap", "Bootstrap","JavaScript"],
+      github: "https://github.com/UdhyaKumarKMIT/BookMyBite-Restaurant-Dining-Booking-Website-React",
       demo: "https://weather-app-demo.com",
     },
     {
