@@ -31,7 +31,7 @@ const Home = () => {
                 <Button variant="primary" href="https://github.com/UdhyaKumarKMIT" className="home-button" target="_blank">
                   <FaGithub /> GitHub
                 </Button>
-                <Button variant="primary" href="#" className="home-button" target="_blank">
+                <Button variant="primary" href="https://drive.google.com/file/d/1Di5uBL3kXoEiPsFFLRVrQZNrFZHQrw54/view?usp=sharing" className="home-button" target="_blank">
                   <FaFileAlt /> Resume
                 </Button>
               </div>
