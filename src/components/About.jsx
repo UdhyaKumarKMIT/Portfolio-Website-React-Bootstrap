@@ -18,9 +18,11 @@ const About = () => {
             <h1 className="section-title">About Me</h1>
             <div className="about-text">
               <p className="intro-text">
-                Hi there! Udhya Kumar K, a highly motivated Computer Engineering Undergraduate with a passion for Full
-                Stack Web Development, Machine Learning and Problem-solving.
-              </p>
+                  Hi there! I'm Udhya Kumar K, a highly motivated Computer Engineering Undergraduate with a passion for Full
+                  Stack Web Development, Machine Learning and Problem-solving. I am adept at developing cutting-edge web and mobile applications with smooth and user friendly UI              
+                <span className="laptop-emoji">💻</span>
+
+                </p>
               <p className="career-text">
                 Seeking opportunities in the tech industry to contribute my skills and drive innovation.
                 <span className="rocket-emoji">🚀</span>
@@ -29,7 +31,8 @@ const About = () => {
                 <p>Education</p>
                 <Row>
                   <Col>
-                    <p>B.E Computer Science and Engineering</p>
+                    <p>B.E Computer Science and Engineering  </p>
+                     <p>CGPA 9.72 / 10</p>
                     <p>Madras Institute of Technology, Anna University</p>
                   </Col>
                 </Row>

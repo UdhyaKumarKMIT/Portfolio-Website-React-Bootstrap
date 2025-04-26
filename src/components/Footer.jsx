@@ -8,17 +8,17 @@ const Footer = () => {
     <section className="footer-section" id="Footer">
       <Container className='align-items-center justify-content-center'>
         <h2 className="section-title">Footer</h2>
-        <Row>
-        
-            <ul className="footer-links">
+        <div className="footerLinks">
+        <ul className="footer-links">
               <li><a href="#home">Home</a></li>
               <li><a href="#About">About</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          
-        </Row>
+        </div>
+           
+        
         <Row>
          
          
@@ -33,7 +33,7 @@ const Footer = () => {
 
         </Row>
        
-        <p className="footer-copy">© 2025 Udhya Kumar. All Rights Reserved.</p>
+        <p className="m-3 footer-copy text-center">©2025 Udhya Kumar K MIT. All Rights Reserved.</p>
       </Container>
     </section>
   )

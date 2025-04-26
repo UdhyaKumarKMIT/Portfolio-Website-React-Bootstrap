@@ -6,13 +6,13 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "AI-Driven Prompt Enhancement for Stable Diffusion",
       description:
-        "A full-stack e-commerce application with product catalog, cart functionality, and secure payment processing.",
-      image: "./assets/projects/project1.jpg",
-      techStack: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/yourusername/ecommerce-platform",
-      demo: "https://ecommerce-demo.com",
+        "A web application that extracts prompt from image and also enhances user prompts making is highly suitable for Stable Diffusion, improving image generation quality and relevance.",
+      image: "promptgenerator.png",
+      techStack: ["Artificial Intelligence", "NLP", "HuggingFace", "React" ,"MongoDB"],
+      github: "https://github.com/UdhyaKumarKMIT/AI-Image-Prompt-Generator-Model",
+      demo: "https://github.com/UdhyaKumarKMIT/AI-Image-Prompt-Generator-Model",
     },
     {
       id: 2,

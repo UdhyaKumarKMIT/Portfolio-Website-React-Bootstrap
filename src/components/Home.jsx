@@ -24,11 +24,11 @@ const Home = () => {
               </div>
 
               <div className="btncontainer">
-                <Button variant="primary" href="#" className="home-button" target="_blank">
+                <Button variant="primary" href="https://www.linkedin.com/in/udhya-kumar-k-b7999128a/" className="home-button" target="_blank">
                   <FaLinkedin /> LinkedIn
                 </Button>
                 
-                <Button variant="primary" href="#" className="home-button" target="_blank">
+                <Button variant="primary" href="https://github.com/UdhyaKumarKMIT" className="home-button" target="_blank">
                   <FaGithub /> GitHub
                 </Button>
                 <Button variant="primary" href="#" className="home-button" target="_blank">
