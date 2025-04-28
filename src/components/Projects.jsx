@@ -22,17 +22,17 @@ function Projects() {
         image: "gemini.png",
         techStack: ["React", "Gemini AI", "Web Development", "MongoDB"],
         github: "https://github.com/UdhyaKumarKMIT/Gemini-Ai",
-        demo: "https://ai-image-demo.com"
+        demo: "https://github.com/UdhyaKumarKMIT/Gemini-Ai"
       }
      , 
      {
       id: 3,
-      title: "Health Connect",
-      description: "Admin Dashboard for MIT Health Care Centre, Anna University. A responsive web application to manage students, staff, doctors, and medicine records efficiently.",
-      image: "./assets/projects/project3.jpg",
-      techStack: ["HTML", "Bootstrap 5", "JavaScript", "PHP", "MySQL"],
-      github: "https://github.com/UdhyaKumarKMIT/Admin-Panel-Healthcare-Centre",
-      demo: "https://task-management-demo.com"
+      title: "E-Cosmetics Shoppoing Website",
+      description: "An e-commerce website for cosmetics shopping with user friendly interface. Users can browse products, add to cart. .They website provides a efficient and enjoyable experience",
+      image: "E-Cosmetics.png",
+      techStack: ["React", "React-Bootstrap", "Bootstrap","JavaScript"],
+      github: "https://github.com/UdhyaKumarKMIT/E-Cosmetics-React-JS",
+      demo: "https://github.com/UdhyaKumarKMIT/E-Cosmetics-React-JS"
     },
     
     {
@@ -43,7 +43,7 @@ function Projects() {
       image: "restaurant.png",
       techStack: ["React", "React-Bootstrap", "Bootstrap","JavaScript"],
       github: "https://github.com/UdhyaKumarKMIT/BookMyBite-Restaurant-Dining-Booking-Website-React",
-      demo: "https://weather-app-demo.com",
+      demo: "https://github.com/UdhyaKumarKMIT/BookMyBite-Restaurant-Dining-Booking-Website-React",
     },
     {
       id: 5,
@@ -59,8 +59,8 @@ function Projects() {
       title: "Wealth Mate",
       description: "Wealth Mate is an AI-powered financial assistant featuring a smart chatbot, financial therapist, and dynamic stock dashboard. It helps users manage their finances, investments, and emotional well-being with ease.",
       image: "port2.png",
-      techStack: ["Flutter","Project IDX",""],
-      github: "https://github.com/UdhyaKumarKMIT/Financial_Appg",
+      techStack: ["Flutter","Project IDX"],
+      github: "https://github.com/UdhyaKumarKMIT/Financial_App",
       demo: "https://github.com/UdhyaKumarKMIT/Financial_App",
     },
   ]
