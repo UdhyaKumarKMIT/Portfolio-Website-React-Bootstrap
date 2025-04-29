@@ -1,8 +1,9 @@
 // vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
+// Export configuration
 export default defineConfig({
   plugins: [react()],
-  base: 'https://github.com/UdhyaKumarKMIT/Portfolio-Website-React-Bootstrap', // IMPORTANT!
-})
+  base: '/Portfolio-Website-React-Bootstrap/',   // Correct base path
+});

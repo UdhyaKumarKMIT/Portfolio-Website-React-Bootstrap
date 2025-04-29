@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Skills.css';
 
-// Explicitly import each SVG file
 import CLogo from '../assets/skills/C.svg';
 import CPlusPlusLogo from '../assets/skills/C++.svg';
 import JavaLogo from '../assets/skills/java.svg';
