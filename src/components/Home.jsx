@@ -17,7 +17,7 @@ const Home = () => {
                 </span>
               </h1>
               <h1 className="heading-name">
-                I'M <strong className="main-name">Udhya K</strong>
+                I'M <strong className="main-name">Udhya Kumar K</strong>
               </h1>
               <div className="typing-container">
                 <Type />
