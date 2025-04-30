@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import Type from "./Type"
 import "./Home.css"
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa"
-
+import homeMain from '../assets/home-main.svg';
 const Home = () => {
   return (
     <section id="home">
@@ -39,7 +39,7 @@ const Home = () => {
 
             <Col md={5} className="home-img-container">
               <img
-                src="src\assets\home-main.svg"
+                src={homeMain}
                 className="img-fluid home-img"
                 alt="home illustration"
                 style={{ maxHeight: "450px" }}

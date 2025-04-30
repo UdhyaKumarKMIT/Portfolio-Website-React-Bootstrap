@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import "./About.css"
-import moduleName from 'module'
+import HomeMainImage from "../assets/home-main.svg"
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
           </Col>
           <Col md={5} className="profile-image-container">
             <div className="profile-image-wrapper">
-           <img  src="src\assets\home-main.svg" alt="Udhya Kumar" className="profile-image" />
+           <img  src={HomeMainImage} alt="Udhya Kumar" className="profile-image" />
             </div>
           </Col>
         </Row>
