@@ -10,10 +10,7 @@ const Contact = () => {
         <h2 className="section-title">Let's Connect</h2>
 
         <div className="contact-buttons">
-          <a href="mailto:udhyak2004@gmail.com" className="contact-button">
-            <CgMail /> Email Me
-          </a>
-          <a
+        <a
             href="https://www.linkedin.com/in/udhya-kumar-k-b7999128a/"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,6 +18,10 @@ const Contact = () => {
           >
             <FaLinkedin /> LinkedIn
           </a>
+          <a href="mailto:udhyak2004@gmail.com" className="contact-button">
+            <CgMail /> Email Me
+          </a>
+          
         </div>
 
         <div className="contact-form">
