@@ -6,10 +6,21 @@
 
 body.light-theme .skills-section {
   background-color: var(--light-bg-secondary);
+  color: var(--dark-text-primary);
+}
+
+
+body.light-theme .skills-section {
+  color: var(--light-text-primary);
+}
+
+body.light-theme .skills-section .section-title {
+  color: var(--light-text-primary);
 }
 
 body.dark-theme .skills-section {
   background-color: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
 }
 
 .skills-section::before {

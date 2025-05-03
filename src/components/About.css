@@ -6,6 +6,9 @@
 body.light-theme .about-section {
   background-color: var(--light-bg-primary);
 }
+body.light-theme .section-title {
+  color: var(--light-text-primary);
+}
 
 body.dark-theme .about-section {
   background-color: var(--dark-bg-primary);
